@@ -1,0 +1,63 @@
+Overview
+
+Abosom Network is wishing to commission talented web and blockchain developers to build a fully functioning Abosom Budget website.
+
+This website may have 4 Major features
+
+1. The ability to view all current proposals on the network and their current number of yes and no votes
+2. The ability to create new proposals and add them to the blockchain
+3. The ability to view the current available balance of the budget plus the amount of budget remaining based on current conditions
+4. The ability to view when the previous superblock occurred and when the next superblock will occur in Day/month/year format
+
+The budget for this development is negotiable and we will not consider price as the only variable in our decision for tender
+
+Abosom budget website design Specifications
+
+The Abosom budget website will display all of the current proposals, their states as well as the overall state of the budget, meaning total monthly supply and total remaining. This will be achieved by querying either a suitable explorer or running a full node (not a masternode) and querying that. These queries will be RPC commands as described in DASH (which Abosom is a recent fork of) and will run seamlessly and regularly on the budget website. It is important that this information is updated every few seconds or at worst every few hours. This will give users an up to date representation of the networks governance. The Abosom Budget ONLY needs to display Abosom network information. No other currencies except USD are relevant.
+
+The GUI of the website should be vibrant and intuitive,
+for styling we much prefer the PIVXCentral.org over the Dashcentral.org site.
+we are aiming this site at regular Abosom users who will not be particularly tech savvy,
+so the emphasis should be on clean minimal design with as few on-screen links and text as possible.
+Text should also be large and bold and the entire site needs to be mobile responsive, this is very important.
+Abosom has a set of branding guidelines which include colours and fonts to be used as well as logo information and we would like these guidelines adhered to as best as possible.
+The site will be presented in English only, so no translation tools are needed.
+We would like the site to have social media links for Abosom in the footer and header along with links to other key Abosom sites, Explorer, main site and ANN.
+Please join our discord for links to our brand guide, It will be added to our Git hub shortly.
+
+Security 
+
+Security for the budget website is key, we have https hosting, but would also like the following to be taken into account.
+Firstly the site must be accessible by TOR and clear net with equal ease, so no TOR breaking features should be implemented.
+Secondly no visitor information should be tracked or stored, if possible cookies should not be used at all, we would like this website to be for information purposes only.
+Finally when completed all code should be owned by Abosom network and displayed with relevant open source copyright on our git hub, developers can decide whether they want to be named or remain anonymous.
+
+Proposal handling
+
+Proposals are the MAIN feature of this website and we wish for them to be displayed clearly and prominently.
+Proposals should be displayed in alphabetical order so as to avoid confirmation bias and have colour coded text to display their current state (if extreme) for example 80% NO votes with over 10 votes should be red, while 80% YES votes with over 10 votes should be Green, everything else in between should be black or amber.
+There should be a link to the proposal document similar to the implementation in PIVX central, we would also like buttons similar to PIVX central [PIC 1] 
+with code to easily copy commands for the voting terminal.
+All yes/no percentages should be visible, but NOT prominent.
+There are NO plans to add archives of previous super blocks as yet, but we will add that feature in phase II of this website.
+
+If proposal creation is possible without collecting personal data we should discuss this, however this is not essential for Phase I of this website.
+with the main features being these 
+	- This should be open to anyone, no account needed.
+	- The 5 ABS fee should be collected, via QR code and text address sharing.
+	- Proposal creators can remain anonymous or add any synonym they like as their handle.
+
+Viewing the Budget State
+ This is the second most important factor and should be viewable in a static portion of the screen also with the intended consequence of having voters always viewing proposals in comparison to the total amount of budget available, this helps people to prioritise proposals effectively we feel, but we welcome developer comment on this point.
+ This should show the total amount of Abs available both in ABS and USD as well as the total supply for this superblock of ABS in USD.
+ Other important superblock data which does not need to remain static are Superblock start and end dates, it's important that these dates are displayed in Date format and not as a block.
+
+This concludes the specifications guide for the new Abosom Budget website.
+
+Payment for this will be made in BTC/ETH or the digital asset of your choice, we can also make payments via Fiverr, Upwork and other popular freelancer platforms
+ 
+If you wish to tender for this contract, please Join our Discord [discord.abosom.org] and speak to either Zenyatta or AbosomAdvocate.
+
+Decisions for this Tender will be made in conjunction with the next Abosom Superblock.
+
+Best of luck!
